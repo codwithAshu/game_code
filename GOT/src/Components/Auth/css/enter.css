@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.enter {
+    position: relative;
+    background-image: url(/src/assets/god33.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.wrapper {
+    display: inline-flex;
+    position: absolute;
+    left: 15%;
+    top: 61px;
+}
+
+.wrapper .static {
+    font-size: 50px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.822);
+    font-style: italic;
+    text-shadow: -5px 4px 10px #e9e6e4;
+    word-spacing: -2px;
+}
+
+.wrapper .dynmic {
+    line-height: 90px;
+    height: 90px;
+    font-style: italic;
+    overflow: hidden;
+    text-shadow: 4px 5px 6px #504745;
+}
+
+.dynmic li {
+    list-style: none;
+    font-size: 48px;
+    font-weight: 500;
+    color: rgb(231, 23, 9);
+    position: relative;
+    top: -8px;
+    animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+.dynmic li span {
+    position: relative;
+}
+
+.dynmic li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 120%;
+    width: 100%;
+    border-left: 2px solid red;
+    background-image: url(/src/assets/god33.jpg);
+    animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+button.enterbtn {
+    margin-top: 14%;
+    width: 13%;
+    background-color: #ff0303;
+    font-weight: 900;
+    box-shadow: 0px 1px 6px 1px;
+    align-items: center;
+    left: 34%;
+    margin-top: 25%;
+    position: absolute;
+
+    border: 3px solid red;
+}
+
+.enterbtn:hover {
+    /* background-color: rgb(249, 49, 18); */
+    background-color: black;
+    color: #ff0303;
+    text-shadow: 0px 0px 2px whitesmoke;
+    letter-spacing: 0.25em;
+}

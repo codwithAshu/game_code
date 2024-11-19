@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* login */
+.login {
+  width: 20%;
+  background-color: beige;
+}
+
+input {
+  width: 91%;
+}
+
+
+
+
+
+/* ABOUT */
+.aboutimg img {
+  width: 300px;
+}
+
+header {
+  /* background-color: #44a0ca8f; */
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+
+.content {
+  font-family: 'Times New Roman', Times, serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* contact us  */
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* NAVBAR */
+
+
+marquee {
+  padding-top: 150px;
+  font-size: 140px;
+  font-weight: 400;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0;
+  height: 63px;
+}
+
+img,
+svg {
+
+  margin-left: 50px;
+}
+
+.nav-item a {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(240, 240, 240);
+  text-decoration: none;
+  margin-left: 15px;
+
+}
+
+/* LOG IN PAGE  */
+
+.login-container {
+  background: center;
+  border-radius: 35px;
+  /* box-shadow: -12px 14px 5px rgba(0, 0, 0, 0.575); */
+  box-shadow: 5px 8px 3px 23px rgba(0, 0, 0, 0.397);
+  padding: 19px;
+  max-width: 37%;
+  width: 100%;
+  text-align: center;
+  margin: 0px auto;
+  color: rgb(12, 0, 0);
+  border-right: 1px solid rgba(202, 194, 194, 0.884);
+  margin-top: 5%;
+  filter: drop-shadow(2px 4px 6px black);
+  right: 150px;
+  border: 5px solid;
+}
+
+form.login-form {
+  padding: 0;
+  margin: 0;
+  /* width: 100%; */
+  /* max-width: 100%; */
+  text-align: center;
+  align-items: center;
+}
+
+.puma {
+  position: absolute;
+  left: -200%;
+  top: 20%;
+
+}
+
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.login-form label {
+  text-align: center;
+
+}
+
+.login-form h1 {
+  margin-bottom: 10px;
+  color: #080101;
+}
+
+.login-form p {
+  margin-bottom: 20px;
+  color: blanchedalmond;
+  font-weight: 700;
+  font-style: oblique;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.input-group {
+  margin: 15px 0px;
+
+}
+
+button {
+  border-radius: 15px;
+}
+
+
+.input-group input {
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 100%;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #0056b3;
+
+}
+
+.signupbtn {
+  background-color: #42B72A;
+  padding: 10px 65px;
+  border-radius: 8px;
+}
+
+
+
+
+.bottom-text p {
+  margin-bottom: 10px;
+}
+
+
+.bottom-text a:hover {
+  color: #0056b3;
+}
+
+/* Responsive */
+/* @media screen and (max-width: 600px) {
+  .login-container {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    border-radius: 0;
+  }
+} */
+
+
+.leftsec {
+  position: absolute;
+  left: 100px;
+
+}
+
+.leftsec img {
+  position: absolute;
+  top: -100px;
+  left: -30px;
+  width: 300px;
+}
+
+.leftsec p {
+  font-size: 28px;
+  line-height: 41px;
+}
+
+.ein {
+  width: 320px;
+}
+
+
+
+
+/* SIGNUP PAGE CSS */
+
+
+label {
+  text-align: center;
+  width: 60%;
+}
+
+
+button.mt-4.ms-4 {
+  width: 137px;
+  border-radius: 20px;
+}
+
+input {
+  width: 200px;
+  /* border-radius: 10px; */
+}
+
+.signupimg {
+  height: 90vh;
+  width: 100vw;
+  /* background-color: red; */
+  background-image: url(/src/assets/godofwar2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* position: fixed; */
+  position: ABSOLUTE;
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  background-image: url(../src/assets/godofwar.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+}
+
+.loginbg {
+  background-image: url(../src/assets/pngtree-cyber-security-concept-data-protection-and-secured-internet-access-generative-ai-picture-image_2499680.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+  position: absolute;
+  width: 100%;
+
+}
+
+
+
+.container {
+  display: grid;
+  place-items: center;
+
+}
+
+
+/* UPDATE PAGE  */
+.updatebg {
+  /* -image: url(https://img.freepik.com/free-vector/restaurant-mural-wallpaper_52683-47493.jpg?w=740&t=st=1705295029~exp=1705295629~hmac=174a7b91b0e34bc512373d62ba4c8971c289d17efe83209807c9bd7c2ac9c982); */
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+.card.card-outline-secondary {
+  color: white;
+  width: 30%;
+  position: absolute;
+  left: 80px;
+  top: 150px;
+  padding: 43px;
+  border-radius: 38px;
+  background-color: #0000006e;
+}
+
+h3.mb-0 {
+  text-align: center;
+  width: 243px;
+}
+
+button.btn.btn-info.btn-lg.btn-block {
+  background-color: rgb(248, 245, 245);
+  color: black;
+  border: none;
+}
+
+button.btn.btn-info.btn-lg.btn-block:hover {
+  box-shadow: 8px 8px 15px rgba(18, 171, 195, 0.951);
+}
+
+.updatebg {
+  background-color: #007bff7e;
+}
+
+.cup img {
+  width: 0;
+}
+
+.login-form h1 {
+  margin-bottom: 10px;
+  color: white;
+  border-radius: 52px;
+  width: 106%;
+  /* margin-right: -22px; */
+  /* padding: 0 0px; */
+  /* padding-left: 4px; */
+}
+
+.bottom-text {
+
+  color: #080101;
+  border-radius: 5px;
+  width: 61%;
+  align-items: center;
+  margin-top: 20px;
+  /* margin-right: -22px; */
+  /* padding: 0 0px; */
+  padding-top: 10px;
+  border-top: 1px solid white;
+  /* border-top-width: 1px; */
+  width: 108%;
+}
+
+.bottom-text a {
+  color: lightslategrey;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 600;
+
+}
+
+/* .enter {
+  background-image: url(/src/assets/enter.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 92vh;
+  position: absolute;
+  width: 100%;
+} */
+
+/* 
+.static {
+
+  margin-top: 4%;
+  font-weight: 700;
+
+  border-radius: 48px;
+  width: 47%;
+  align-items: center;
+  margin-left: 28%;
+  padding-left: 1%;
+  padding: 6px 14px;
+
+} */

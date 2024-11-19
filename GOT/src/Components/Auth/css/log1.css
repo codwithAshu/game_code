@@ -1,0 +1,158 @@
+.container-form {
+    width: 29%;
+    background-color: #1923226b;
+    padding: 50px;
+    border-radius: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-top: 60px;
+    /* margin-left: 450px; */
+    text-align: center;
+    /* font-size: 11px; */
+    margin-left: 0;
+    padding-top: 13px;
+    box-shadow: 0px 0px 12px 2px brown;
+
+}
+
+
+.logincontainer {
+    margin: 0;
+    /* max-width: 100%; */
+    max-width: 100%;
+    justify-items: left;
+    margin-left: 10%;
+    POSITION: RELATIVE;
+
+}
+
+.gamelogo {
+    width: 19%;
+    padding: 0;
+    border-radius: 53px;
+
+    box-shadow: 0px 3px 17px 7px saddlebrown;
+    margin: 0;
+    margin-bottom: 9%;
+}
+
+.btnlogin {
+
+    background: linear-gradient(to right, #d16f09, #d80f0f);
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.btnlogin:hover {
+    background-color: #1877f2;
+    text-shadow: 1px 1px 5px rgb(5, 5, 5);
+    letter-spacing: 0.1em;
+
+
+}
+
+h5.ltext-center.mb-4.mt-0 {
+    /* color: goldenrod; */
+    background: linear-gradient(to right, #d16f09, #d80f0f);
+    border-radius: 7px;
+    padding: 11px 4px;
+    /* padding-left: 0px; */
+    width: 102%;
+
+    font-size: 92%;
+    font-family: system-ui;
+    /* font-weight: 600; */
+}
+
+p {
+    margin-top: 18px;
+    margin-bottom: 1rem;
+    font-size: 15px;
+    /* padding: 0; */
+    font-family: math;
+    color: chocolate;
+}
+
+.logerror-message {
+    color: #cc0d0d;
+    font-size: 14px;
+    text-align: justify;
+    font-family: auto;
+}
+
+button.signup {
+    width: 61%;
+    margin-left: 22%;
+    font-family: emoji;
+}
+
+@media screen and (max-width: 600px) {
+    .logincontainer {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .loginp {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form-group {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .signup {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .btnlogin {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gamelogo {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .container-form {
+        max-width: 100%;
+        /* Allow the form to take the full width on smaller screens */
+        padding: 20px;
+        /* Add padding for better spacing */
+    }
+}
+
+/* Add this to your existing CSS or create a new CSS file */
+.password-input {
+    position: relative;
+}
+
+.password-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #555;
+    /* Adjust the color as needed */
+}
